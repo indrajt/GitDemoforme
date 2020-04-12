@@ -1,0 +1,7 @@
+Feature: Test the search criteria
+
+Scenario: User should able to provide the search data
+
+Given User is on the search page
+When User enters the search details
+Then User get the search result

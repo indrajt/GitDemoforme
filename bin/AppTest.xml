@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MySuite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="SmokeTest.SampleWebTest"/>
+      <class name="SmokeTest.SmokeTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
