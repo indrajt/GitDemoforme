@@ -26,6 +26,9 @@ public class Login {
 		System.out.println("Browser Title is: " + title);
 		String url = driver.getCurrentUrl();
 		System.out.println(url);
+		System.out.println("This is for GIT1");
+		System.out.println("This is for git2");
+		System.out.println(driver.getPageSource());
 		if (url=="https://www.google.com/")
 			System.out.println("Test FAILED");
 		
